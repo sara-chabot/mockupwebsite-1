@@ -1,0 +1,224 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  .nav-link:focus, .nav-link:hover {
+    color: orange;
+  }
+  .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: black !important;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  }
+  .container {
+      padding-top:60px;
+      padding-bottom: 30px;
+  }
+  .row-2 {
+    background-image: url("images/jumbotron.jpg");
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom:30px;
+  }
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    padding-top: 60px;
+  }
+  img, svg {
+    vertical-align: middle;
+    padding-bottom: 0;
+  }
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    padding-top: 60px;
+    padding-bottom:60px;
+  }
+  .panel5 {
+    text-align: center;
+    padding: 30px;
+  }
+  /*waves*/
+  .custom-shape-divider-top-1650828238 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1650828238 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1650828238 .shape-fill {
+    fill: orange;
+}
+/*waves end*/
+
+/*waves two*/
+.custom-shape-divider-bottom-1650943400 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1650943400 svg {
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 177px;
+}
+
+.custom-shape-divider-bottom-1650943400 .shape-fill {
+  fill: orange;
+}
+/*waves two end*/
+
+/*fonts for h1*/
+h1 {
+  font-family:'Bebas Neue', bold;
+  font-size:60px;
+}
+
+p, h2, h4{
+  font-family: 'Inter', sans-serif;
+}
+
+/*fonts for h1 end*/
+
+.btn-primary {
+  font-family:'Bebas Neue', bold;
+  color: #fff;
+  background-color: black;
+  border-color: black;
+}
+
+/*bottom nav*/
+
+.nav {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+/*bottom nav*/
+
+/*about us page*/
+
+.introduction {
+  text-align: center;
+  padding: 60px 300px 0 300px;
+  font-size: 20px;
+}
+
+/*artists page*/
+
+.col1 {
+  padding:0 0 0 0;
+  text-align: center;
+}
+.col2 {
+  padding:0 0 0 0;
+  text-align: center;
+}
+.bottomlogo {
+display: flex;
+text-align: center;
+padding:60px 0 60px 0;
+}
+
+/*releases page*/
+.col-md-3 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.card-text {
+  text-align: center;
+  padding-top: 0;
+}
+.card-title {
+  padding:20px;
+}
+a {
+  color: black;
+  text-decoration: underline;
+}
+a:hover {
+  color: #0d6efd;
+}
+
+/*contact form*/
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  font-family: 'Inter', sans-serif;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #0d6efd;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+} 
+
